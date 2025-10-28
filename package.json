@@ -8,7 +8,8 @@
     "build": "rimraf ./dist && tsc",
     "lint": "eslint --config ./eslint.config.mjs --cache-location ./.eslintcache \"./**/*.ts\" --cache",
     "lint:fix": "eslint --config ./eslint.config.mjs --cache-location ./.eslintcache \"./**/*.ts\" --cache --fix",
-    "format": "prettier --write ./src"
+    "format": "prettier --write ./src",
+    "run:0-1768": "ts-node src/0.String-StringAlgorithms/1768.merge-strings-alternately.ts"
   },
   "keywords": [],
   "author": "",
