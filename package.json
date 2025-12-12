@@ -10,7 +10,8 @@
     "lint:fix": "eslint --config ./eslint.config.mjs --cache-location ./.eslintcache \"./**/*.ts\" --cache --fix",
     "format": "prettier --write ./src",
     "run:0-1768": "ts-node src/0.String-StringAlgorithms/1768.merge-strings-alternately.ts",
-    "run:0-13": "ts-node src/0.String-StringAlgorithms/13.roman-to-integer.ts"
+    "run:0-13": "ts-node src/0.String-StringAlgorithms/13.roman-to-integer.ts",
+    "run:0-14": "ts-node src/0.String-StringAlgorithms/14.longest-common-prefix.ts"
   },
   "keywords": [],
   "author": "",
